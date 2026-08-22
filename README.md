@@ -10,7 +10,13 @@ Add your AWS credentials to your GitHub repository
 
 <br/>
 
-#### <ins>Method 1:</ins> Deploy AWS Dynamodb Table using CLI
+#### <ins>Method 1:</ins> Deploy AWS Dynamodb Table using CLI  
+- Set Up AWS Authentication:  
+    Run the below command and follow the instruction.  
+```
+aws configure
+```
+- Copy the main.tf to the current directory.  
 - Deploy AWS Dynamodb Table:  
 ```
 tarraform init
