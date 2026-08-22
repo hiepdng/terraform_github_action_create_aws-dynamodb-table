@@ -25,7 +25,7 @@ terraform plan -destroy
 terraform destroy -auto-approve
 ```
 
-#### <ins>Method 2:</ins> Deploy LAMP Stack using GitHub Actions
+#### <ins>Method 2:</ins> Deploy AWS Dynamodb Table using GitHub Actions
 - The provided GitHub Action is for deploying the AWS Dynamodb Table And they are triggered by workflow_dispatch. Change to other trigger if you wish.
 - There are two Gihub Actions workflow files (deploy.yml and destroy.yml).
     - deploy.yml: Deploy the AWS Dynamodb Table.
